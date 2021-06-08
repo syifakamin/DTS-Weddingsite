@@ -1,7 +1,154 @@
+/* Header */
+/* BEGIN EDITAN Adinda Najwa */
+html, body { 
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  position: absolute;
+  right: 25px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  float: right;
+  padding: 42px 10px;
+}
+.header {
+  background-color: rgba(226, 185, 135, 0.912);
+  color: #000000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  z-index: 10;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 30px 40px;
+}
+.header span{
+  float: right;
+  margin: 35px 30px;
+  font-size: x-large;
+  display: none;
+}
+/* End EDITAN Adinda Najwa */
+/* Responsive */
+
+
+
+
+/* Main */
+/* BEGIN Editan Anca */
+
+.main {
+  font-family: "Lucida Grande";
+}
+.title {
+  padding: 240px 0px 40px 0px;
+  text-align: center;
+  background-image: url("https://www.jing.fm/clipimg/detail/47-472284_wedding-transparent-wedding-couple-png.png");
+  background-size: cover;
+}
+.title2 {
+  text-align: center;
+}
+.content {
+  margin: 0 100px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 52px;
+  margin: 0px;
+  color: #daa520;
+}
+h3 {
+  margin: 0px;
+}
+h2 {
+  margin-bottom: 5px;
+}
+.text1 {
+  font-size: 22px;
+  color: #daa520;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.text2 {
+  text-align: left;
+}
+.text3 {
+  margin: 0px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  box-shadow: 0 7px #9b8a36;
+
+}
+.btn:hover {
+  background-color: #c5b358;
+  opacity: 1;
+}
+
+.order {
+  background-color: #c6a967;
+}
+.p {
+  margin: 0px;
+}
+.benefit {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.list {
+  height: 60px;
+  margin-right: 30px;
+}
+
+span {
+  position: relative;
+  top: 5px;
+  height: 58px;
+  display: block;
+  margin-right: 5px;
+  float: left;
+}
+
+
+
+/* END Editan Anca */
+
+/* Body */
 /* EDITAN AMIN */
-body {
-  margin: 0;
-  font-family: "Raleway";
+
+#container {
+  margin-top: 80px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: center;
+}
+
+#package {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
 }
 
 .product-card {
@@ -9,7 +156,7 @@ body {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
   max-width: 300px;
   margin: 50px;
   text-align: center;
@@ -115,13 +262,7 @@ body {
   color: white;
 }
 
-@media (max-width: 480px) {
-  .arrow,
-  .light .arrow {
-    background-size: 10px;
-    background-position: 10px 50%;
-  }
-}
+
 
 /*Setiap Slide ada di sini */
 [id^="item"] {
@@ -157,233 +298,47 @@ body {
   z-index: 3;
   opacity: 1;
 }
-
-/* End CSS carousel */
-
 /* END EDITAN AMIN */
 
-/* BEGIN Editan Anca */
-
-.main {
-  font-family: "Lucida Grande";
-}
-.title {
-  padding: 240px 0px 40px 0px;
-  text-align: center;
-  background-image: url("https://www.jing.fm/clipimg/detail/47-472284_wedding-transparent-wedding-couple-png.png");
-  background-size: cover;
-}
-.title2 {
-  text-align: center;
-}
-.content {
-  margin: 0 100px;
-  padding-bottom: 50px;
-}
-
-a {
-  text-decoration: none;
-}
-h1 {
-  margin: 0px;
-  color: #daa520;
-}
-h3 {
-  margin: 0px;
-}
-h2 {
-  margin-bottom: 5px;
-}
-.text1 {
-  color: #daa520;
-  margin-top: 5px;
-  margin-bottom: 30px;
-}
-.text2 {
-  text-align: left;
-}
-.text3 {
-  margin: 0px;
-}
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-.btn:hover {
-  background-color: #c5b358;
-  opacity: 1;
-}
-
-.order {
-  background-color: #c6a967;
-}
-.p {
-  margin: 0px;
-}
-.benefit {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-.list {
-  height: 60px;
-  margin-right: 30px;
-}
-.desc {
-  padding: 0 15px 0 25px;
-}
-span {
-  position: relative;
-  top: 5px;
-  height: 58px;
-  display: block;
-  margin-right: 5px;
-  float: left;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-}
-ul {
-  position: absolute;
-  right: 25px;
-}
-li {
-  font-weight: bold;
-  list-style-type: none;
-  float: left;
-  padding-right: 15px;
-}
-#container {
-  margin-top: 80px;
-  padding: 20px;
-  background-color: #eee;
-  text-align: center;
-}
-
-#package {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  background-color: rgb(255, 255, 255);
-  align-items: center;
-}
-
-/* #footer {
-  padding: 20px;
-  background-color: #e2e2e2;
-  align-items: center;
-} */
-
-input[type="text"],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: #bba742;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #9b8a36;
-}
-
-/* style yang ada dikolom footer */
-.column {
-  float: left;
-  max-width: 50%;
-  margin-top: 6px;
-  padding: 40px;
-}
-
-.row::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-/* END Editan Anca */
-
-/* BEGIN EDITAN Adinda Najwa */
-
-li {
-  list-style: none;
-  float: right;
-  padding-top: 33px;
-  padding-right: 25px;
-  padding-bottom: 33px;
-  padding-left: 25px;
-}
-.header {
-  background-color: rgba(226, 185, 135, 0.912);
-  color: #000000;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  height: 100px;
-  top: 0;
-  z-index: 10;
-}
-a {
-  color: #000;
-}
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding-top: 30px;
-  padding-right: 40px;
-  padding-bottom: 30px;
-  padding-left: 40px;
-}
-
-/* End EDITAN Adinda Najwa */
+/* Footer */
 
 /* BEGIN EDITAN Anis Agustiani */
 footer {
+  position: relative;
   background-color: rgba(226, 185, 135, 0.912);
-  color: #fff;
-  height: 120px;
-  padding: 40px;
+  color: rgb(0, 0, 0);
+  height: 100px;
+  
 }
 .copyright {
-  padding-top: 140px;
-  padding-bottom: 5px;
+  position: absolute;
   color: #000;
   font-family: "lucida grande";
   opacity: 0.5;
   text-align: left;
   font-size: 10px;
+  bottom: 15px;
+  left: 40px;
 }
 .footer-logo {
   font-size: 32px;
   float: left;
+  padding: 30px 40px;
 }
 .footer-list {
   float: right;
-  padding: 32px;
+  
 }
 footer li {
-  padding-bottom: 5px;
+
   list-style: none;
   font: lucida grande;
 }
 
 /* END EDITAN Anis Agustiani */
 
+
+/* Animation */
 /* BEGIN EDITAN Annisa Nur Fadhila */
 .header a:hover {
   color: #fff;
@@ -395,8 +350,9 @@ footer li {
 
 .btn:active {
   background-color: #c5b358;
-  box-shadow: 0 7px #9b8a36;
-  transform: translateY(5px);
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 .card button {
@@ -414,28 +370,25 @@ input[type="submit"] {
 }
 
 input[type="submit"]:active {
-  background-color: #c5b358;
-  box-shadow: 7px 7px #9b8a36;
+  background-color: #45a049;
+  box-shadow: 7px 7px #367c39;
   transform: translate3d(2px, 5px, 1px);
 }
 
 .card:hover {
-  width: 250px;
-  height: 250px;
-  margin: 0 auto;
-  box-shadow: 10px 10px rgba(226, 185, 135, 0.912);
+  width: 300px;
+  height: 471px;
+  box-shadow: 5px 10px rgba(226, 185, 135, 0.912);
 }
 
 .card:active {
   transform: translate3d(5px, 5px, 5px);
 }
+footer{
+  transition: all 0.5s;
+}
+footer li:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 /* END EDITAN Annisa Nur Fadhila */
-
-/* @media screen and (max-width: 600px) {
-  .coloumn,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
-  }
-} */

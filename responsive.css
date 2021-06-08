@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+    .arrow,
+    .light .arrow {
+      background-size: 10px;
+      background-position: 10px 50%;
+    }
+  }
+  @media(max-width: 1000px){
+    .header span{
+      display: block;
+    }
+    .header ul{
+      display: none;
+    }
+  }
+  @media(max-width: 810px){
+  
+    footer ul{
+      padding-top: 10px;
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 1000px) {
+    .card-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media (max-width: 870px) {
+  
+    span{
+      height: 86px;
+    }
+  }
