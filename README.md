@@ -4,7 +4,7 @@ Wedding Landing Page digunakan untuk Teamwork Digitalent Scholarship Fresh Gradu
 Pembagian Tugas :
 
 
-Annisa Nur Fadhila
+Adinda Najwa
 - Header 
 
 Amin Syifa'
