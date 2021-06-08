@@ -291,7 +291,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #04aa6d;
+  background-color: #bba742;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -299,7 +299,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #9b8a36;
 }
 
 /* style yang ada dikolom footer */
@@ -383,6 +383,54 @@ footer li {
 }
 
 /* END EDITAN Anis Agustiani */
+
+/* BEGIN EDITAN Annisa Nur Fadhila */
+.header a:hover {
+  color: #fff;
+}
+
+.btn {
+  background-color: #c6a967;
+}
+
+.btn:active {
+  background-color: #c5b358;
+  box-shadow: 0 7px #9b8a36;
+  transform: translateY(5px);
+}
+
+.card button {
+  border-radius: 4px;
+}
+
+.card button:active {
+  background-color: #000;
+  box-shadow: 0 7px #5c5c5c;
+  transform: translateY(5px);
+}
+
+input[type="submit"] {
+  border-radius: 4px;
+}
+
+input[type="submit"]:active {
+  background-color: #c5b358;
+  box-shadow: 7px 7px #9b8a36;
+  transform: translate3d(2px, 5px, 1px);
+}
+
+.card:hover {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  box-shadow: 10px 10px rgba(226, 185, 135, 0.912);
+}
+
+.card:active {
+  transform: translate3d(5px, 5px, 5px);
+}
+
+/* END EDITAN Annisa Nur Fadhila */
 
 /* @media screen and (max-width: 600px) {
   .coloumn,
